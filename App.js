@@ -9,11 +9,11 @@ import { styles, stylesFilter, styleButton, styleInput, styleNavbar, styleText, 
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: `https://mitutorweb-2022.herokuapp.com/api/usuariosControlador`
+  baseURL: `yourendpointUsers`
 })
 
 const api_peticion = axios.create({
-  baseURL: `https://mitutorweb-2022.herokuapp.com/api/peticionControlador`
+  baseURL: `yourendpointPetition`
 })
 
 const Buscar = () => {
